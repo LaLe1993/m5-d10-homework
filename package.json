@@ -1,0 +1,28 @@
+{
+  "name": "m5-d2-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strive-School-Apr20/m5-d2-express.git"
+  },
+  "author": "Riccardo Gulin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Strive-School-Apr20/m5-d2-express/issues"
+  },
+  "homepage": "https://github.com/Strive-School-Apr20/m5-d2-express#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1",
+    "uniqid": "^5.2.0"
+  }
+}
